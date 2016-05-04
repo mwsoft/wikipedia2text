@@ -19,11 +19,11 @@ JDK6以上がインストールされていること。
 
 コマンドの引数に落としたファイルのパスを指定して実行する。下記は同一ディレクトリに当該ファイルが存在する場合のコマンド。
 
-       ./activator 'run jawiki-latest-pages-articles.xml.bz2'
+       bin/activator 'run jawiki-latest-pages-articles.xml.bz2'
 
 わかち書きも行う場合は、--wakatiオプションを付ける。
 
-       ./activator 'run -wakati jawiki-latest-pages-articles.xml.bz2'
+       bin/activator 'run -wakati jawiki-latest-pages-articles.xml.bz2'
 
 出力されるファイルはplain text版、わかち書き版、共に6GBくらい。
 
